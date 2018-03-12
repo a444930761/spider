@@ -1,0 +1,186 @@
+2017-11-13 18:11:25 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: tencentcrawspider)
+2017-11-13 18:11:25 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'tencentcrawspider', 'FEED_FORMAT': 'csv', 'FEED_URI': 'file:///D://Anaconda//test//scrapy//%(name)s//%(time)s.csv', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'tencentcrawspider.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['tencentcrawspider.spiders']}
+2017-11-13 18:11:25 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-13 18:11:25 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-13 18:11:25 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-13 18:11:25 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-13 18:11:25 [scrapy.core.engine] INFO: Spider opened
+2017-11-13 18:11:25 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-13 18:11:25 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/robots.txt> (referer: None)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php> (referer: None)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=10#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=30#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=2540#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=40#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=60#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=50#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=70#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33677&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33677&keywords=&tid=0&lid=0>
+{'title': 'HY2-后台开发工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=20#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33953&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33915&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=32596&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=30868&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33685&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33681&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33683&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33953&keywords=&tid=0&lid=0>
+{'title': 'HY2-手游SDK终端开发高级工程师(深圳)'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33915&keywords=&tid=0&lid=0>
+{'title': 'HY2-游戏高级运维工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=32596&keywords=&tid=0&lid=0>
+{'title': 'HY2-王者荣耀助手安卓客户端开发工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=30868&keywords=&tid=0&lid=0>
+{'title': 'HY2-高级数据分析工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33685&keywords=&tid=0&lid=0>
+{'title': 'HY2-心悦俱乐部用户运营'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33681&keywords=&tid=0&lid=0>
+{'title': 'HY2-海外游戏运维工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=31801&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33683&keywords=&tid=0&lid=0>
+{'title': 'HY2-心悦俱乐部产品经理（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=32079&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=31801&keywords=&tid=0&lid=0>
+{'title': 'HY2-前端开发工程师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=32079&keywords=&tid=0&lid=0>
+{'title': 'HY2-数据分析开发师（深圳）'}
+2017-11-13 18:11:26 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-13 18:11:26 [scrapy.extensions.feedexport] INFO: Stored csv feed (10 items) in: file:///D://Anaconda//test//scrapy//tencentrules//2017-11-13T10-11-25.csv
+2017-11-13 18:11:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6578,
+ 'downloader/request_count': 20,
+ 'downloader/request_method_count/GET': 20,
+ 'downloader/response_bytes': 77920,
+ 'downloader/response_count': 20,
+ 'downloader/response_status_count/200': 20,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 13, 10, 11, 26, 496000),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 31,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 19,
+ 'scheduler/dequeued/memory': 19,
+ 'scheduler/enqueued': 19,
+ 'scheduler/enqueued/memory': 19,
+ 'start_time': datetime.datetime(2017, 11, 13, 10, 11, 25, 289000)}
+2017-11-13 18:11:26 [scrapy.core.engine] INFO: Spider closed (finished)
+2017-11-13 18:11:37 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: tencentcrawspider)
+2017-11-13 18:11:37 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'tencentcrawspider', 'FEED_FORMAT': 'csv', 'FEED_URI': 'file:///D://Anaconda//test//scrapy//%(name)s//%(time)s.csv', 'LOG_FILE': 'log.txt', 'NEWSPIDER_MODULE': 'tencentcrawspider.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['tencentcrawspider.spiders']}
+2017-11-13 18:11:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-11-13 18:11:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-13 18:11:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-13 18:11:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-11-13 18:11:37 [scrapy.core.engine] INFO: Spider opened
+2017-11-13 18:11:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-13 18:11:37 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-11-13 18:11:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/robots.txt> (referer: None)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php> (referer: None)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=10#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=70#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=50#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=30#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33677&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=60#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=40#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=2540#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33677&keywords=&tid=0&lid=0>
+{'title': 'HY2-后台开发工程师（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position.php?&start=20#a> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33953&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33915&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33685&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33953&keywords=&tid=0&lid=0>
+{'title': 'HY2-手游SDK终端开发高级工程师(深圳)'}
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=32596&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=30868&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33915&keywords=&tid=0&lid=0>
+{'title': 'HY2-游戏高级运维工程师（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33681&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=33683&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=31801&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33685&keywords=&tid=0&lid=0>
+{'title': 'HY2-心悦俱乐部用户运营'}
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=32596&keywords=&tid=0&lid=0>
+{'title': 'HY2-王者荣耀助手安卓客户端开发工程师（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=30868&keywords=&tid=0&lid=0>
+{'title': 'HY2-高级数据分析工程师（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33681&keywords=&tid=0&lid=0>
+{'title': 'HY2-海外游戏运维工程师（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=33683&keywords=&tid=0&lid=0>
+{'title': 'HY2-心悦俱乐部产品经理（深圳）'}
+2017-11-13 18:11:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hr.tencent.com/position_detail.php?id=32079&keywords=&tid=0&lid=0> (referer: http://hr.tencent.com/position.php)
+2017-11-13 18:11:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=31801&keywords=&tid=0&lid=0>
+{'title': 'HY2-前端开发工程师（深圳）'}
+2017-11-13 18:11:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hr.tencent.com/position_detail.php?id=32079&keywords=&tid=0&lid=0>
+{'title': 'HY2-数据分析开发师（深圳）'}
+2017-11-13 18:11:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-11-13 18:11:39 [scrapy.extensions.feedexport] INFO: Stored csv feed (10 items) in: file:///D://Anaconda//test//scrapy//tencentrules//2017-11-13T10-11-37.csv
+2017-11-13 18:11:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6578,
+ 'downloader/request_count': 20,
+ 'downloader/request_method_count/GET': 20,
+ 'downloader/response_bytes': 77919,
+ 'downloader/response_count': 20,
+ 'downloader/response_status_count/200': 20,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 11, 13, 10, 11, 39, 96000),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 31,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 20,
+ 'scheduler/dequeued': 19,
+ 'scheduler/dequeued/memory': 19,
+ 'scheduler/enqueued': 19,
+ 'scheduler/enqueued/memory': 19,
+ 'start_time': datetime.datetime(2017, 11, 13, 10, 11, 37, 822000)}
+2017-11-13 18:11:39 [scrapy.core.engine] INFO: Spider closed (finished)
